@@ -1,0 +1,27 @@
+{
+  "private": true,
+  "name": "minimal-linting",
+  "version": "1.0.0",
+  "description": "Template for minimal linting configuration",
+  "repository": "git@github.com:bmealhouse/minimal-linting.git",
+  "author": "Brent Mealhouse <bmealhouse@gmail.com>",
+  "license": "MIT",
+  "main": "index.ts",
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,ts}": "xo"
+  },
+  "devDependencies": {
+    "husky": "4.2.5",
+    "lint-staged": "10.2.11",
+    "xo": "0.33.0"
+  },
+  "scripts": {
+    "format": "prettier --write .",
+    "lint": "xo"
+  }
+}
