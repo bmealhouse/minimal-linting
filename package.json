@@ -6,7 +6,6 @@
   "repository": "git@github.com:bmealhouse/minimal-linting.git",
   "author": "Brent Mealhouse <bmealhouse@gmail.com>",
   "license": "MIT",
-  "main": "src/index.ts",
   "lint-staged": {
     "*.{js,ts}": "xo"
   },
