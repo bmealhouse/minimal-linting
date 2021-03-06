@@ -9,14 +9,14 @@
   "lint-staged": {
     "*.{js,ts}": "xo"
   },
-  "devDependencies": {
-    "husky": "5.1.3",
-    "lint-staged": "10.5.4",
-    "xo": "0.38.2"
-  },
   "scripts": {
     "format": "prettier --write .",
     "lint": "xo",
     "postinstall": "husky install"
+  },
+  "devDependencies": {
+    "husky": "5.1.3",
+    "lint-staged": "10.5.4",
+    "xo": "0.38.2"
   }
 }
