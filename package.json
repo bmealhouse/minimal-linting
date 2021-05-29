@@ -6,8 +6,21 @@
   "repository": "git@github.com:bmealhouse/minimal-linting.git",
   "author": "Brent Mealhouse <bmealhouse@gmail.com>",
   "license": "MIT",
+  "type": "module",
   "lint-staged": {
     "*.{js,ts}": "xo"
+  },
+  "prettier": {
+    "useTabs": false,
+    "trailingComma": "es5",
+    "singleQuote": false,
+    "bracketSpacing": true
+  },
+  "xo": {
+    "prettier": true,
+    "rules": {
+      "capitalized-comments": "off"
+    }
   },
   "scripts": {
     "format": "prettier --write .",
