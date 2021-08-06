@@ -29,7 +29,7 @@
   },
   "devDependencies": {
     "husky": "7.0.1",
-    "lint-staged": "11.1.1",
+    "lint-staged": "11.1.2",
     "xo": "0.43.0"
   }
 }
