@@ -28,7 +28,7 @@
     "postinstall": "husky install"
   },
   "devDependencies": {
-    "husky": "7.0.1",
+    "husky": "7.0.2",
     "lint-staged": "11.1.2",
     "xo": "0.44.0"
   }
